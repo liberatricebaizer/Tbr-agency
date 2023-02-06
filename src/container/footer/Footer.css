@@ -1,0 +1,90 @@
+/***************************/
+/* Footer */
+/**************************/
+.footer {
+  border-top: 1px solid #eee;
+  border-bottom: 0.5rem solid #20c997;
+  padding: 6.4rem 4.8rem;
+  background-color: #fff;
+}
+
+.footer__content {
+  padding-bottom: 2.4rem;
+  grid-template-columns: 2fr 3fr;
+}
+
+.footer__details {
+  /* align-items: center; */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__contact {
+  font-size: 1.6rem;
+}
+
+.footer__contact h1 {
+  margin-bottom: 1.2rem;
+}
+
+.footer__contact--m {
+  display: inline-block;
+  text-decoration: none;
+  color: #343a40;
+  line-height: 1.75;
+}
+
+.social__contact {
+  display: flex;
+  gap: 1.2rem;
+  margin-block: 1rem;
+}
+
+.social__contact--link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkedin:hover {
+  transform: scale(1.2);
+  color: #0072b1;
+}
+.facebook:hover {
+  transform: scale(1.2);
+  color: #3b5998;
+}
+.twitter:hover {
+  transform: scale(1.2);
+  color: #00acee;
+}
+.social__contact--icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  transition: all.3s;
+}
+
+.footer__text {
+  font-size: 1.4rem;
+}
+
+.footer__details--list h2 {
+  margin-bottom: 2.4rem;
+}
+
+.footer__details--list ul {
+  font-size: 1.4rem;
+  list-style: none;
+}
+
+.footer__details--list ul li {
+  margin-bottom: 1.75rem;
+}
+
+.footer__details--list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footer__details--list ul li .link-style {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}

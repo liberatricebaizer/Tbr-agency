@@ -1,4 +1,4 @@
-import SignIn from "../components/NavBar/SignIn";
+import { SignIn } from "../components";
 
 const Login = () => {
   return (

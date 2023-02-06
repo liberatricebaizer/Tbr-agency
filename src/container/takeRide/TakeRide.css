@@ -1,0 +1,31 @@
+.map {
+  flex: 1;
+  background-color: #20c997;
+}
+
+.map__item {
+  flex: 1;
+  /* background-color: blueviolet; */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.userprofile img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}

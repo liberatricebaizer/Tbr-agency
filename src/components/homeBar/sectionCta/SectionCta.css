@@ -1,0 +1,23 @@
+/***************************/
+/* Call-To-Action Section */
+/**************************/
+.section__cta {
+  padding: 9.6rem 0;
+}
+
+.cta__box {
+  max-width: 75rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta__text {
+  font-size: 1.8rem;
+  margin-bottom: 4.4rem;
+  color: #343a40;
+}
+
+.cta__btn {
+  font-size: 1.8rem;
+  margin: 0;
+}

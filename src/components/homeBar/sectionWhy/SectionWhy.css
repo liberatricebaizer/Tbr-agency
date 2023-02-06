@@ -1,0 +1,45 @@
+/***************************/
+/* Why TBR Section */
+/**************************/
+.section__why {
+  padding: 9.6rem 0;
+}
+.heading__secondary {
+  font-size: 3.6rem;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.why-description {
+  max-width: 80rem;
+}
+
+.our_services_content {
+  padding: 2.4rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.9rem;
+  display: grid;
+}
+
+.our_services_content .text {
+  margin-bottom: 2.4rem;
+}
+
+.icon_descr {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #20c997;
+  margin-bottom: 1.6rem;
+}
+
+.service_descr {
+  text-align: top;
+}
+
+.btn_text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-self: end;
+  align-self: end;
+}

@@ -1,9 +1,9 @@
-import HelpMe from "../components/NavBar/HelpMe";
+import { Support } from "../components";
 
 const Help = () => {
   return (
     <div>
-      <HelpMe />
+      <Support />
     </div>
   );
 };

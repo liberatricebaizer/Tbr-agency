@@ -1,24 +1,19 @@
 import { Route, Switch, Redirect } from "react-router-dom";
-import MainHeader from "./components/MainHeader";
-import Booking from "./components/NavBar/Booking";
-import TakeRide from "./components/NavBar/TakeRide";
-import AboutUs from "./pages/AboutUs";
-import Help from "./pages/Help";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import { HomeBar, NavBar, SignIn, SignUp, Support } from "./components";
+import { Booking, TakeRide } from "./container";
+import Slider from "./container/about/Slider";
 
 function App() {
   return (
     <div>
-      <MainHeader />
+      <NavBar />
       <main>
         <Switch>
           <Route path="/" exact>
             <Redirect to="/Home" />
           </Route>
           <Route path="/Home" exact>
-            <Home />
+            <HomeBar />
           </Route>
 
           <Route path="/Ride">
@@ -28,16 +23,16 @@ function App() {
             <Booking />
           </Route>
           <Route path="/Help">
-            <Help />
+            <Support />
           </Route>
           <Route path="/About us">
-            <AboutUs />
+            <Slider />
           </Route>
           <Route path="/Signin">
-            <Login />
+            <SignIn />
           </Route>
           <Route path="/Signup">
-            <Signup />
+            <SignUp />
           </Route>
         </Switch>
       </main>

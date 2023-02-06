@@ -1,0 +1,155 @@
+.nav {
+  font-size: 1.8rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 6rem;
+}
+.class {
+  position: absolute;
+  text-align: start;
+  border-radius: 0.5rem;
+  padding: 20px 3px;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.06);
+  padding-block: 1.2rem;
+}
+
+.sub__menus {
+  display: none;
+}
+#nav__li a {
+  text-decoration: none;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.navlink:link,
+.navlink:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.6rem 1.6rem 0.6rem 1.6rem;
+  color: #343a40;
+  position: relative;
+}
+
+nav a.active {
+  border-bottom: 5px solid #20c997;
+}
+
+.navlink__home {
+  color: #343a40;
+}
+
+.sign_btn {
+  display: flex;
+}
+.nav_icon {
+  display: none;
+}
+
+/*mobile nav option*/
+.mobile_nav {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+
+  height: 100vh;
+  top: 0;
+  width: 60%;
+  z-index: 1;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: center;
+  transition: all 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+.mobile_nav-closed {
+  right: -80%;
+}
+.mobile__nav-open {
+  right: 0%;
+}
+/******************************/
+
+.mobile__nav_close {
+  right: 0;
+}
+@media (max-width: 60em) {
+  .desktop__nav {
+    display: none;
+  }
+  .mobile__nav {
+    display: block;
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+  }
+}
+@media (max-width: 50em) {
+  .nav {
+    display: none;
+  }
+  .navbtn > .sign_btn {
+    display: none;
+  }
+  .nav_icon {
+    display: block;
+    font-size: 2.4rem;
+    position: relative;
+  }
+  .nav_icon button {
+    border: 0px;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .ul-mobile > li {
+    margin-block: 3rem;
+    list-style: none;
+    text-decoration: none;
+  }
+  .navlink-mob {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-mobile-links {
+    margin-block: 5rem;
+  }
+  .class-mob {
+    left: 0;
+    position: relative;
+    background: transparent;
+    box-shadow: unset;
+    transform: translateX(10px);
+    padding: 0;
+    transition: 0.5s;
+  }
+  .class-mob-link {
+    text-decoration: none;
+    color: #555;
+    margin-block: 0.8rem;
+  }
+  .class-mob li {
+    margin-block: 0.8rem;
+    /* color: #000000aa; */
+  }
+  .close_menu {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    padding: 1.5rem 6rem;
+  }
+  .close_menu > button {
+    background: unset;
+  }
+}

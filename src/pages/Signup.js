@@ -1,4 +1,4 @@
-import SignUp from "../components/NavBar/SignUp";
+import { SignUp } from "../components";
 
 const Signup = () => {
   return (

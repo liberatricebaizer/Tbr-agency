@@ -1,4 +1,4 @@
-import TakeRide from "../components/NavBar/TakeRide";
+import { TakeRide } from "../container";
 
 const Ride = () => {
   return <TakeRide />;

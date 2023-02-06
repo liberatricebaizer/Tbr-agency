@@ -1,0 +1,115 @@
+.form_box-sign {
+  width: 100%;
+  min-height: calc(100vh - 8rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-sign {
+  background: url(https://images.unsplash.com/photo-1504150558240-0b4fd8946624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.sign-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(auto, 100%);
+  width: 70rem;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.26);
+}
+.signup-form {
+  padding: 3rem;
+}
+.username-sign {
+  display: flex;
+  gap: 10px;
+}
+.logo {
+  margin-block: 2rem;
+}
+.username-sign input {
+  width: 15rem;
+}
+.logo h2 {
+  font-size: 2rem;
+}
+.form-input-sign {
+  margin-block-end: 2rem;
+}
+
+.form-input-sign input {
+  padding: 1.2rem 2rem;
+  border: solid 1px #0ca678;
+  transform: border 0.5s;
+  outline: 0;
+  border-radius: 3px;
+  width: 100%;
+}
+.form-input-sign input:focus {
+  transition: border 0.5s;
+  border: solid 1px #0ca678;
+}
+.form-input-sign input:focus:invalid {
+  border: solid 1px red;
+}
+.form-input-sign button {
+  padding: 10px 15px;
+  font-weight: 600;
+  color: white;
+  border: 0;
+  background: #20c997;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+.form-input-sign button:hover {
+  background: #099268;
+}
+.check {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.remember label {
+  font-size: 1.2rem;
+  color: #777;
+}
+.remember input {
+  accent-color: #20c997;
+}
+
+.forgot {
+  font-size: 1.2rem;
+  transform: translateX(15px);
+}
+.forgot span a {
+  text-decoration: none;
+}
+.create {
+  display: flex;
+  align-items: center;
+  margin-block-start: 2rem;
+}
+.create span {
+  font-size: 1.2rem;
+}
+.create span a {
+  text-decoration: none;
+}
+.create span:nth-child(2) {
+  transform: translateX(15px);
+}
+@media (max-width: 670px) {
+  .sign-box {
+    box-shadow: unset;
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .img-sign {
+    display: none;
+  }
+}

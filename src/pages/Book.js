@@ -1,4 +1,4 @@
-import Booking from "../components/NavBar/Booking";
+import { Booking } from "../container";
 
 const Book = () => {
   return <Booking />;
