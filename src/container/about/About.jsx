@@ -1,11 +1,13 @@
 import React, { Fragment, useState } from "react";
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import "./About.css";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 // import video from "../../assets/img3.jpg";
 import profile1 from "../../assets/baizer.jpg";
+import profile2 from "../../assets/toussaint.jpeg";
+import profile3 from "../../assets/tertius.png";
 import Footer from "../footer/Footer";
 const About = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,9 +32,9 @@ const About = ({ slides }) => {
           <h1 className="heading__primary about__header--text">
             We are here to make your business move
           </h1>
-          <a href="#" className="about__header--btn">
+          <Link to="#" className="about__header--btn">
             Learn more
-          </a>
+          </Link>
         </div>
         <div className="about__agency">
           <div className="about__content">
@@ -104,13 +106,25 @@ const About = ({ slides }) => {
                     distinctio et deleniti!"
                   </p>
                   <div className="user__contact">
-                    <Link className="social__contact--link">
-                      <FaGithub className="social__contact--icon facebook" />
+                    <Link
+                      className="social__contact--link"
+                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      target="_blank"
+                    >
+                      <FaGithub className="social__contact--icon github" />
                     </Link>
-                    <Link className="social__contact--link">
+                    <Link
+                      className="social__contact--link"
+                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      target="_blank"
+                    >
                       <FaTwitter className="social__contact--icon twitter" />
                     </Link>
-                    <Link className="social__contact--link">
+                    <Link
+                      className="social__contact--link"
+                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      target="_blank"
+                    >
                       <FaLinkedin className="social__contact--icon linkedin" />
                     </Link>
                   </div>
@@ -122,9 +136,9 @@ const About = ({ slides }) => {
               <div className="user__content">
                 <div className="user__profile">
                   <div className="user__img">
-                    <img src={profile1} alt="Baizer Profile" />
+                    <img src={profile2} alt="Baizer Profile" />
                   </div>
-                  <p className="user__name">Liberatrice Bayizere</p>
+                  <p className="user__name">Toussaint Iradukunda</p>
                   <div className="user__tag">
                     <span className="user__skills">Frontend Developer</span>
                   </div>
@@ -138,13 +152,25 @@ const About = ({ slides }) => {
                     distinctio et deleniti!"
                   </p>
                   <div className="user__contact">
-                    <Link className="social__contact--link">
-                      <FaGithub className="social__contact--icon facebook" />
+                    <Link
+                      className="social__contact--link"
+                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      target="_blank"
+                    >
+                      <FaGithub className="social__contact--icon github" />
                     </Link>
-                    <Link className="social__contact--link">
+                    <Link
+                      className="social__contact--link"
+                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      target="_blank"
+                    >
                       <FaTwitter className="social__contact--icon twitter" />
                     </Link>
-                    <Link className="social__contact--link">
+                    <Link
+                      className="social__contact--link"
+                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      target="_blank"
+                    >
                       <FaLinkedin className="social__contact--icon linkedin" />
                     </Link>
                   </div>
@@ -156,11 +182,13 @@ const About = ({ slides }) => {
               <div className="user__content">
                 <div className="user__profile">
                   <div className="user__img">
-                    <img src={profile1} alt="Baizer Profile" />
+                    <img src={profile3} alt="Baizer Profile" />
                   </div>
-                  <p className="user__name">Liberatrice Bayizere</p>
+                  <p className="user__name">Bon Tertius Tuyishimire</p>
                   <div className="user__tag">
-                    <span className="user__skills">Frontend Developer</span>
+                    <span className="user__skills">
+                      Web Developer | Designer
+                    </span>
                   </div>
                 </div>
                 <div className="user__details">
@@ -172,13 +200,25 @@ const About = ({ slides }) => {
                     distinctio et deleniti!"
                   </p>
                   <div className="user__contact">
-                    <Link className="social__contact--link">
-                      <FaGithub className="social__contact--icon facebook" />
+                    <Link
+                      className="social__contact--link"
+                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      target="_blank"
+                    >
+                      <FaGithub className="social__contact--icon github" />
                     </Link>
-                    <Link className="social__contact--link">
+                    <Link
+                      className="social__contact--link"
+                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      target="_blank"
+                    >
                       <FaTwitter className="social__contact--icon twitter" />
                     </Link>
-                    <Link className="social__contact--link">
+                    <Link
+                      className="social__contact--link"
+                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      target="_blank"
+                    >
                       <FaLinkedin className="social__contact--icon linkedin" />
                     </Link>
                   </div>

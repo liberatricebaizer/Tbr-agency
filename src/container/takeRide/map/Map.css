@@ -1,14 +1,3 @@
-.section__ride {
-  display: flex;
-  flex-direction: column;
-  /* background-color: aqua; */
-  height: 100vh;
-}
-.section__input {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
+.addressToGo {
   padding: 2rem;
-  gap: 0.5rem;
 }

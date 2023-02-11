@@ -5,9 +5,9 @@ const TakeRide = () => {
   return (
     <section className="section__ride">
       <Map />
-      <div className="map__item">
+      {/* <div className="map__item">
         <header className="header">
-          {/* <img src={} alt="TBR logo" /> */}
+          // <img src={} alt="TBR logo" /> 
           <h2 className="header__logo">TBR Agance</h2>
           <div className="profile">
             <h1 className="name">Terry Tuyisenge</h1>
@@ -18,7 +18,7 @@ const TakeRide = () => {
         </header>
         header actions button input
         <h2 className="heading__secondary">actions item</h2>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -25,12 +25,27 @@ const Map = () => {
         marginheight="0"
         marginwidth="0"
       ></iframe>
-      <div className="">
-        <h2 className="heading__secondary">Take a ride</h2>
-        <input />
-        <input />
-        <button type="button"> hey there</button>
-        <button type="button"> hey there</button>
+      <div className="addressToGo">
+        <h2 className="heading__secondary">Where to go?</h2>
+        <div className="location">
+          <input
+            type="text"
+            id="currentLocation"
+            name="Current Location"
+            placeholder="current location"
+            className="currLoc"
+          />
+        </div>
+
+        <div className="location">
+          <input
+            type="text"
+            id="destinationLocation"
+            name="Destination Location"
+            placeholder="destination location"
+            className="currLoc"
+          />
+        </div>
       </div>
     </div>
   );

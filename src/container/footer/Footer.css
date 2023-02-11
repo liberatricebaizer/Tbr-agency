@@ -56,6 +56,9 @@
   transform: scale(1.2);
   color: #00acee;
 }
+.github:hover {
+  transform: scale(1.2);
+}
 .social__contact--icon {
   width: 2.4rem;
   height: 2.4rem;

@@ -78,7 +78,7 @@
   position: relative;
   max-width: 120rem;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 4rem;
   background-color: #343a40;
   color: #fff;
   border-radius: 15px;
@@ -162,7 +162,7 @@
 .user__img {
   width: 10rem;
   height: 10rem;
-  border: 2px solid #fff;
+  border: 4px solid #fff;
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
