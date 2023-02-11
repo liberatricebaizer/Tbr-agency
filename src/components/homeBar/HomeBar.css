@@ -11,6 +11,7 @@ Breakpoints :
   outline: none;
   border: none;
   background: none;
+  font-family: inherit;
   font-size: 1.6rem;
   border-radius: 8px;
   cursor: pointer;

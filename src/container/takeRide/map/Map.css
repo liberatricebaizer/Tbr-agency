@@ -1,3 +1,69 @@
 .addressToGo {
-  padding: 2rem;
+  /* flex: 1; */
+  padding: 4rem;
+}
+
+.loc {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 100px;
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+
+.loc:focus {
+  outline: none;
+}
+
+.location {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  overflow: hidden;
+
+  border: 1px solid #20c997;
+}
+
+.here {
+  border-left: solid 1px #bbb;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 1.8rem;
+  color: #20c997;
+}
+
+.location:not(:last-of-type) {
+  margin-bottom: 1.75rem;
+}
+
+.takeAction {
+  display: flex;
+  justify-content: center;
+}
+
+.take-action {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 100px;
+  background-color: #d7f5ec;
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.05);
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.take-action:hover {
+  background-color: #20c997;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.05);
+}
+
+.mapping {
+  flex: 1;
 }

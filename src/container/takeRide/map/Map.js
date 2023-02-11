@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 // import "mapbox-gl/dist/mapbox-gl.css";
 // import mapboxGl from "mapbox-gl";
 import "./Map.css";
@@ -14,17 +14,6 @@ const Map = () => {
   // });
   return (
     <div className="map" id="map">
-      <iframe
-        style={{ float: "right" }}
-        width="921"
-        height="360"
-        id="gmap_canvas"
-        src="https://maps.google.com/maps?q=burundi&t=&z=13&ie=UTF8&iwloc=&output=embed"
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
-      ></iframe>
       <div className="addressToGo">
         <h2 className="heading__secondary">Where to go?</h2>
         <div className="location">
@@ -33,8 +22,9 @@ const Map = () => {
             id="currentLocation"
             name="Current Location"
             placeholder="current location"
-            className="currLoc"
+            className="currLoc loc"
           />
+          <div className="here">Take</div>
         </div>
 
         <div className="location">
@@ -43,10 +33,23 @@ const Map = () => {
             id="destinationLocation"
             name="Destination Location"
             placeholder="destination location"
-            className="currLoc"
+            className="destLoc loc"
           />
         </div>
+        <div className="takeAction">
+          <button className="take-action">Take a ride</button>
+        </div>
       </div>
+      <iframe
+        // style={{ float: "right" }}
+        id="gmap_canvas"
+        src="https://maps.google.com/maps?q=burundi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        className="mapping"
+      />
     </div>
   );
 };
