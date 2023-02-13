@@ -6,6 +6,7 @@ const Booking = () => {
       <div className="booking-form">
         <form>
           <input />
+          <input />
         </form>
       </div>
     </div>
