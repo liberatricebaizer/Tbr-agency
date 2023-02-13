@@ -33,7 +33,7 @@
   align-items: center;
   padding: 0 1rem;
   font-size: 1.8rem;
-  color: #20c997;
+  /* color: #20c997; */
 }
 
 .location:not(:last-of-type) {
@@ -50,17 +50,18 @@
   padding: 1rem 2rem;
   border: none;
   border-radius: 100px;
-  background-color: #d7f5ec;
+  color: #fff;
+  background-color: #20c997;
   box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.05);
   font-family: inherit;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .take-action:hover {
-  background-color: #20c997;
+  background-color: #168d6a;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.05);
 }
 
