@@ -3,7 +3,7 @@ import "./Support.css";
 const Support = () => {
   return (
     <div className="help">
-      <h3>hiii </h3>
+      <h3>hello word</h3>
     </div>
   );
 };
