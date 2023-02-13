@@ -115,14 +115,20 @@ const About = ({ slides }) => {
                     </Link>
                     <Link
                       className="social__contact--link"
-                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      to={{
+                        pathname:
+                          "https://twitter.com/liberatrice?s=20&t=VJe-rnxw2m6emXq7ICLnEA",
+                      }}
                       target="_blank"
                     >
                       <FaTwitter className="social__contact--icon twitter" />
                     </Link>
                     <Link
                       className="social__contact--link"
-                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      to={{
+                        pathname:
+                          "https://www.linkedin.com/in/liberatrice-baizer-4681a7249",
+                      }}
                       target="_blank"
                     >
                       <FaLinkedin className="social__contact--icon linkedin" />
@@ -136,7 +142,7 @@ const About = ({ slides }) => {
               <div className="user__content">
                 <div className="user__profile">
                   <div className="user__img">
-                    <img src={profile2} alt="Baizer Profile" />
+                    <img src={profile2} alt="Toussaint Profile" />
                   </div>
                   <p className="user__name">Toussaint Iradukunda</p>
                   <div className="user__tag">
@@ -154,7 +160,7 @@ const About = ({ slides }) => {
                   <div className="user__contact">
                     <Link
                       className="social__contact--link"
-                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      to={{ pathname: "https://github.com/Toussaint-Coder" }}
                       target="_blank"
                     >
                       <FaGithub className="social__contact--icon github" />
@@ -182,7 +188,7 @@ const About = ({ slides }) => {
               <div className="user__content">
                 <div className="user__profile">
                   <div className="user__img">
-                    <img src={profile3} alt="Baizer Profile" />
+                    <img src={profile3} alt="Bon-Tertius Profile" />
                   </div>
                   <p className="user__name">Bon Tertius Tuyishimire</p>
                   <div className="user__tag">
@@ -202,21 +208,24 @@ const About = ({ slides }) => {
                   <div className="user__contact">
                     <Link
                       className="social__contact--link"
-                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      to={{ pathname: "https://github.com/tertcoder" }}
                       target="_blank"
                     >
                       <FaGithub className="social__contact--icon github" />
                     </Link>
                     <Link
                       className="social__contact--link"
-                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      to={{ pathname: "https://twitter.com/bon_tertius" }}
                       target="_blank"
                     >
                       <FaTwitter className="social__contact--icon twitter" />
                     </Link>
                     <Link
                       className="social__contact--link"
-                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      to={{
+                        pathname:
+                          "https://www.linkedin.com/in/bon-tertius-tuyishimire-1a997321a",
+                      }}
                       target="_blank"
                     >
                       <FaLinkedin className="social__contact--icon linkedin" />
