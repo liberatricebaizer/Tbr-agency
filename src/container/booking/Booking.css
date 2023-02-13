@@ -1,0 +1,10 @@
+.booking {
+  padding: 4rem;
+}
+
+.booking__search--content {
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid #20c997;
+}
