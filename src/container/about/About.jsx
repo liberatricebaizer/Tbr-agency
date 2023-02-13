@@ -167,7 +167,7 @@ const About = ({ slides }) => {
                     </Link>
                     <Link
                       className="social__contact--link"
-                      to={{ pathname: "https://github.com/liberatricebaizer" }}
+                      to={{ pathname: "https://twitter.com/toussaintiradu2" }}
                       target="_blank"
                     >
                       <FaTwitter className="social__contact--icon twitter" />
