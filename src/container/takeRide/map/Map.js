@@ -1,4 +1,5 @@
 import React from "react";
+import { FaSearchLocation } from "react-icons/fa";
 // import "mapbox-gl/dist/mapbox-gl.css";
 // import mapboxGl from "mapbox-gl";
 import "./Map.css";
@@ -24,7 +25,9 @@ const Map = () => {
             placeholder="current location"
             className="currLoc loc"
           />
-          <div className="here">Take</div>
+          <div className="here">
+            <FaSearchLocation />
+          </div>
         </div>
 
         <div className="location">

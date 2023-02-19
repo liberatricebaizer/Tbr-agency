@@ -30,7 +30,7 @@ const SignUp = () => {
               </div>
 
               <div className="form-input-sign">
-                <input type="email" placeholder="Phone number" required />
+                <input type="text" placeholder="Phone number" required />
               </div>
 
               <div className="form-input-sign">
