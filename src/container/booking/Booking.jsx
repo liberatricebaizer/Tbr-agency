@@ -59,10 +59,7 @@ const Booking = () => {
                     <div className="hotel-info__price">500k BIF</div>
                   </div>
                 </div>
-              </div>
-              <div className="hotel-info__cta">
-                <span></span>
-                Book Now
+                <div className="hotel-info__cta">Book Now</div>
               </div>
             </div>
 
@@ -88,10 +85,7 @@ const Booking = () => {
                     <div className="hotel-info__price">500k BIF</div>
                   </div>
                 </div>
-              </div>
-              <div className="hotel-info__cta">
-                <span></span>
-                Book Now
+                <div className="hotel-info__cta">Book Now</div>
               </div>
             </div>
 
@@ -117,10 +111,7 @@ const Booking = () => {
                     <div className="hotel-info__price">500k BIF</div>
                   </div>
                 </div>
-              </div>
-              <div className="hotel-info__cta">
-                <span></span>
-                Book Now
+                <div className="hotel-info__cta">Book Now</div>
               </div>
             </div>
 
@@ -146,10 +137,7 @@ const Booking = () => {
                     <div className="hotel-info__price">500k BIF</div>
                   </div>
                 </div>
-              </div>
-              <div className="hotel-info__cta">
-                <span></span>
-                Book Now
+                <div className="hotel-info__cta">Book Now</div>
               </div>
             </div>
 
@@ -175,10 +163,7 @@ const Booking = () => {
                     <div className="hotel-info__price">500k BIF</div>
                   </div>
                 </div>
-              </div>
-              <div className="hotel-info__cta">
-                <span></span>
-                Book Now
+                <div className="hotel-info__cta">Book Now</div>
               </div>
             </div>
 
@@ -204,10 +189,7 @@ const Booking = () => {
                     <div className="hotel-info__price">500k BIF</div>
                   </div>
                 </div>
-              </div>
-              <div className="hotel-info__cta">
-                <span></span>
-                Book Now
+                <div className="hotel-info__cta">Book Now</div>
               </div>
             </div>
 
@@ -233,10 +215,7 @@ const Booking = () => {
                     <div className="hotel-info__price">500k BIF</div>
                   </div>
                 </div>
-              </div>
-              <div className="hotel-info__cta">
-                <span></span>
-                Book Now
+                <div className="hotel-info__cta">Book Now</div>
               </div>
             </div>
 
@@ -262,10 +241,7 @@ const Booking = () => {
                     <div className="hotel-info__price">500k BIF</div>
                   </div>
                 </div>
-              </div>
-              <div className="hotel-info__cta">
-                <span></span>
-                Book Now
+                <div className="hotel-info__cta">Book Now</div>
               </div>
             </div>
           </div>

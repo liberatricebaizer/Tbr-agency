@@ -85,6 +85,7 @@
   /* border: 1px solid #777; */
   /* border: 1px solid #20c997; */
   border-radius: 0.5rem;
+  box-shadow: 0 0 2rem #e8e8e8;
   overflow: hidden;
 }
 
@@ -148,6 +149,7 @@
   padding: 1rem 2rem;
   text-align: center;
   cursor: pointer;
+  border-radius: 0.5rem;
 
   transition: all 0.25s;
 }
