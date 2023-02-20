@@ -1,37 +1,40 @@
 .addressToGo {
-  /* flex: 1; */
-  padding: 4rem;
+  max-width: 40rem;
+  padding: 4rem 2rem;
+  /* background-color: rgb(184, 47, 47); */
 }
 
-.loc {
-  padding: 1rem 2rem;
+.loc,
+.date {
+  padding: 1rem 2rem 1rem 1rem;
   border: none;
   border-radius: 100px;
   font-family: inherit;
   font-size: 1.4rem;
 }
 
-.loc:focus {
+.loc:focus,
+.date {
   outline: none;
 }
 
-.location {
+.location,
+.time {
   width: 100%;
   background-color: #fff;
   display: flex;
   align-items: center;
-  border-radius: 100px;
+  border-radius: 0.75rem;
   overflow: hidden;
 
   border: 1px solid #20c997;
 }
 
 .here {
-  border-left: solid 1px #bbb;
   align-self: stretch;
   display: flex;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 0 0 1rem;
   font-size: 1.8rem;
   /* color: #20c997; */
 }
@@ -40,16 +43,21 @@
   margin-bottom: 1.75rem;
 }
 
+.times {
+  display: flex;
+  gap: 2rem;
+}
+
 .takeAction {
   display: flex;
-  justify-content: center;
 }
 
 .take-action {
+  flex: 1;
   margin-top: 2rem;
   padding: 1rem 2rem;
   border: none;
-  border-radius: 100px;
+  border-radius: 0.75rem;
   color: #fff;
   background-color: #20c997;
   box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.05);

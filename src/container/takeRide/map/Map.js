@@ -1,5 +1,7 @@
 import React from "react";
-import { FaSearchLocation } from "react-icons/fa";
+import { IoLocationOutline } from "react-icons/io5";
+import { TfiLocationArrow } from "react-icons/tfi";
+import { BsCalendar4 } from "react-icons/bs";
 // import "mapbox-gl/dist/mapbox-gl.css";
 // import mapboxGl from "mapbox-gl";
 import "./Map.css";
@@ -18,27 +20,59 @@ const Map = () => {
       <div className="addressToGo">
         <h2 className="heading__secondary">Where to go?</h2>
         <div className="location">
+          <div className="here">
+            <IoLocationOutline />
+          </div>
           <input
             type="text"
-            id="currentLocation"
-            name="Current Location"
-            placeholder="current location"
+            id="leavingLocation"
+            name="Leaving Location"
+            placeholder="Leaving from..."
             className="currLoc loc"
           />
-          <div className="here">
-            <FaSearchLocation />
-          </div>
         </div>
 
         <div className="location">
+          <div className="here">
+            <TfiLocationArrow />
+          </div>
           <input
             type="text"
             id="destinationLocation"
             name="Destination Location"
-            placeholder="destination location"
+            placeholder="Going to..."
             className="destLoc loc"
           />
         </div>
+
+        <div className="times">
+          <div className="time-go time">
+            <div className="here">
+              <BsCalendar4 />
+            </div>
+            <input
+              type="text"
+              id="departTime"
+              name="Depart Time"
+              placeholder="Depart"
+              className="depart date"
+            />
+          </div>
+
+          <div className="time-return time">
+            <div className="here">
+              <BsCalendar4 />
+            </div>
+            <input
+              type="text"
+              id="returnTime"
+              name="Return Time"
+              placeholder="Return"
+              className="return date"
+            />
+          </div>
+        </div>
+
         <div className="takeAction">
           <button className="take-action">Take a ride</button>
         </div>
