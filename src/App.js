@@ -2,6 +2,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import { HomeBar, NavBar, SignIn, SignUp, Support } from "./components";
 import { Booking, TakeRide } from "./container";
 import Slider from "./container/about/Slider";
+import RentBar from "./container/Rent/RentBar";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/Booking">
             <Booking />
+          </Route>
+          <Route path="/Rent">
+            <RentBar />
           </Route>
           <Route path="/Help">
             <Support />

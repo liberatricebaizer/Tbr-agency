@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./SectionHero.css";
 const SectionHero = () => {
   return (
-    <section className="section__hero">
+    <section className="section__hero" id="workwithus-section">
       <div className="container grid grid__2__cols mobile">
         <div className="travel__text__box">
           <h1 className="heading__primary">
@@ -20,8 +20,8 @@ const SectionHero = () => {
             <Link to="/signup" className="btn btn__full">
               Get Started
             </Link>
-            <Link to="/" className="btn btn__outline">
-              Learn More <FaLongArrowAltDown className="down" />
+            <Link to="#workwithus-section" className="btn btn__outline">
+              Work with Us <FaLongArrowAltDown className="down" />
             </Link>
           </div>
         </div>

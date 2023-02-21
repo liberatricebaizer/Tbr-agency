@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Footer.css'
+import "./Footer.css";
 
 import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="workwithus-section">
       <div className="footer__content grid mobile">
         <div className="footer__contact">
           <h1>TBR Agency</h1>
@@ -48,11 +48,6 @@ const Footer = () => {
           <div className="footer__details--list">
             <h2>Business</h2>
             <ul>
-              <li>
-                <Link to="/" className="link-style">
-                  Driver
-                </Link>
-              </li>
               <li>
                 <Link to="/" className="link-style">
                   Booking

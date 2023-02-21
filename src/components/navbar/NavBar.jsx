@@ -64,7 +64,7 @@ const NavBar = () => {
                   </li>
                   <li>
                     <NavLink
-                      to="/Booking"
+                      to="/Rent"
                       className="navlink"
                       activeClassName="active"
                       id="id"
@@ -169,7 +169,7 @@ const NavBar = () => {
 
                           <li>
                             <NavLink
-                              to="/Booking"
+                              to="/Rent"
                               className="class-mob-link"
                               id="id"
                             >
