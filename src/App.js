@@ -3,6 +3,7 @@ import { HomeBar, NavBar, SignIn, SignUp, Support } from "./components";
 import { Booking, TakeRide } from "./container";
 import Slider from "./container/about/Slider";
 import RentBar from "./container/Rent/RentBar";
+import Work from "./pages/Work";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/Signup">
             <SignUp />
+          </Route>
+          <Route>
+            <Work />
           </Route>
         </Switch>
       </main>

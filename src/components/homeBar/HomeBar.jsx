@@ -5,6 +5,7 @@ import SectionHero from "./sectionHero/SectionHero";
 import SectionWhy from "./sectionWhy/SectionWhy";
 import SectionFeature from "./SectionFeature/SectionFeature";
 import SectionCta from "./sectionCta/SectionCta";
+
 const HomeBar = () => {
   return (
     <Fragment>

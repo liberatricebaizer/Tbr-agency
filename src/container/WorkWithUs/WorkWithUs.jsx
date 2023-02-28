@@ -1,7 +1,12 @@
 import React from "react";
 import { Fragment } from "react";
-import "WorkWithUs.css";
+import "./WorkWithUs.css";
 
 const WorkWithUs = () => {
-  return <Fragment></Fragment>;
+  return (
+    <Fragment>
+      <div></div>
+    </Fragment>
+  );
 };
+export default WorkWithUs;
