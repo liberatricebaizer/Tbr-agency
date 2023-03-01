@@ -7,6 +7,10 @@
   align-items: center;
   border-bottom: 1px solid #eee;
   padding: 1.5rem 6rem;
+  position: sticky;
+  background: white;
+  z-index: 10;
+  top: 0;
 }
 .class {
   position: absolute;

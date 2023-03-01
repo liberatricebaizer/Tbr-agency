@@ -32,7 +32,7 @@
   box-shadow: 0px 0px 15px #4c4c4c20;
   padding: 4rem;
   border-radius: 0.75rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: 3;
 }
 .popup-box.poped {
@@ -62,6 +62,24 @@
 }
 .close {
   position: absolute;
-  right: -1rem;
-  top: -1rem;
+  right: -5.25rem;
+  top: -5.25rem;
+  padding: 0.75rem;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 50%;
+
+  background-color: #fff;
+  box-shadow: 0 0 1rem #7c7c7c47;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s;
+}
+
+.close:hover,
+.close:hover .iconClose {
+  scale: 1.05;
 }

@@ -1,0 +1,60 @@
+.container-rent {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.container-box {
+  width: 50rem;
+  max-width: 50rem;
+  padding: 2rem;
+  box-shadow: 0 0 2rem rgb(0, 0, 0, 0.1);
+
+  border-radius: 0.75rem;
+}
+
+.container-box .heading__secondary {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.container-box .form {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.label input {
+  display: none;
+}
+
+.pick-pic {
+  width: 10rem;
+  height: 10rem;
+  border: 2px dashed #20c997;
+  border-radius: 0.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pick-pic:hover {
+  border-color: #168d6a;
+  background-color: #d7f5ec;
+}
+
+.pick-pic:hover .iconF {
+  color: #168d6a;
+}
+
+.label {
+}
+
+.iconF {
+  width: 32px;
+  height: 32px;
+  color: #20c997;
+}

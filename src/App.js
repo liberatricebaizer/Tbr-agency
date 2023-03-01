@@ -3,7 +3,8 @@ import { HomeBar, NavBar, SignIn, SignUp, Support } from "./components";
 import { Booking, TakeRide } from "./container";
 import Slider from "./container/about/Slider";
 import RentBar from "./container/Rent/RentBar";
-import Work from "./pages/Work";
+import Driver from "./pages/Driver";
+import RentForm from "./pages/RentForm";
 
 function App() {
   return (
@@ -39,8 +40,11 @@ function App() {
           <Route path="/Signup">
             <SignUp />
           </Route>
-          <Route>
-            <Work />
+          <Route path="/RentForm">
+            <RentForm />
+          </Route>
+          <Route path="/Driver">
+            <Driver />
           </Route>
         </Switch>
       </main>

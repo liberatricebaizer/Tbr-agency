@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaClosedCaptioning } from "react-icons/fa";
+import { GrClose } from "react-icons/gr";
 import { Link } from "react-router-dom";
 import "./SectionCta.css";
 const SectionCta = () => {
@@ -28,12 +29,19 @@ const SectionCta = () => {
       <div className={`popup-box container ${poped === true ? "poped" : ""}`}>
         <div className="popup-content">
           <button className="close" onClick={closetabs}>
-            <FaClosedCaptioning />
+            {/* <FaClosedCaptioning /> */}
+            {/* GrClose */}
+            <GrClose className="iconClose" />
           </button>
-          <h2 className="heading__secondary">Work with us as </h2>
+          <h2 className="heading__secondary">Work with us as a</h2>
           <div className="popup-jobs">
-            <div className="btn btn__full">Driver</div>
-            <div className="btn btn__full">Renter</div>
+            <Link to="/Driver" style={{ textDecoration: "none" }}>
+              <div className="btn btn__full">Driver</div>
+            </Link>
+
+            <Link to="/RentForm" style={{ textDecoration: "none" }}>
+              <div className="btn btn__full">Renter</div>
+            </Link>
           </div>
         </div>
       </div>
