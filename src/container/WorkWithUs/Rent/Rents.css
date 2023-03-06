@@ -1,15 +1,15 @@
 .container-rent {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   align-items: start;
   justify-content: center;
-  margin-top: 15rem;
+  margin-top: 7rem;
 }
 
 .container-box {
-  width: 50rem;
-  max-width: 50rem;
+  width: 70rem;
+  max-width: 70rem;
   padding: 2rem;
   box-shadow: 0 0 2rem rgb(0, 0, 0, 0.1);
 
@@ -26,8 +26,56 @@
   padding: 1rem 2rem;
 }
 
-.label input {
-  display: none;
+.flex-input {
+  display: flex;
+  gap: 10px;
+}
+
+.form-rent {
+  margin-top: 2rem;
+}
+
+.input {
+  display: inline-block;
+  width: 100%;
+  margin-block: 0.75rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #20c997;
+  font-family: inherit;
+  color: inherit;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input-textarea {
+  resize: vertical;
+}
+.rent-now {
+  margin-top: 1rem;
+}
+.rent-cta {
+  display: inline-block;
+
+  width: 100%;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #20c997;
+  background-color: #20c997;
+  font-size: 2rem;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.rent-cta:hover {
+  opacity: 70%;
+}
+.iconF {
+  width: 32px;
+  height: 32px;
+  color: #20c997;
 }
 
 .pick-pic {
@@ -49,12 +97,9 @@
 .pick-pic:hover .iconF {
   color: #168d6a;
 }
-
-.label {
+.label input {
+  display: none;
 }
-
-.iconF {
-  width: 32px;
-  height: 32px;
-  color: #20c997;
+.label .iconF {
+  cursor: pointer;
 }

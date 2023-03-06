@@ -12,14 +12,19 @@
   z-index: 10;
   top: 0;
 }
+.togglenone {
+  display: none;
+}
 .class {
+  display: block;
   position: absolute;
   text-align: start;
   border-radius: 0.5rem;
   padding: 20px 3px;
   background-color: #fff;
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.06);
+  /* box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.06); */
   padding-block: 1.2rem;
+  top: 8rem;
 }
 
 .sub__menus {
@@ -38,8 +43,9 @@
 }
 
 .navlink:link,
-.navlink:visited {
-  display: inline-block;
+.navlink {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   padding: 1.6rem 1.6rem 0.6rem 1.6rem;
   color: #343a40;
